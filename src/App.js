@@ -3,6 +3,7 @@ import "./CSS/ToDoItemList.css";
 import "./CSS/InputBox.css";
 import "./CSS/HeaderContent.css";
 import "./CSS/ToDoItem.css";
+import "./CSS/Clock.css";
 
 import React from "react";
 import Home from "./page/Home";

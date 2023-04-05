@@ -1,5 +1,6 @@
 import React from "react";
 
+/* 헤더 컴포넌트 */
 const HeaderContent = () => (
   <div className="heading">
     <img

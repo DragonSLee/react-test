@@ -88,6 +88,15 @@ const ToDoItem = ({ todoItem, todoList, setTodoList }) => {
         </span>
       )}
 
+      {/* 삭제 버튼 */}
+      <button
+        type="button"
+        className="todoapp_item_delete_btn"
+        onClick={onRemove}
+      >
+        <span>Delete</span>
+      </button>
+
       {/* 수정 버튼 */}
       {edited ? (
         <button
@@ -106,14 +115,6 @@ const ToDoItem = ({ todoItem, todoList, setTodoList }) => {
           <span>Edit</span>
         </button>
       )}
-      {/* 삭제 버튼 */}
-      <button
-        type="button"
-        className="todoapp_item_delete_btn"
-        onClick={onRemove}
-      >
-        <span>Delete</span>
-      </button>
     </li>
   );
 };

@@ -5,6 +5,7 @@ const InputBox = ({ todoList, setTodoList }) => {
   /* useState() Hook으로 빈 문자열의 text와 setText()를 생성 */
   const [text, setText] = useState("");
 
+  //useEffect는 리액트에세 컴포넌트가 렌더링 이후에 어떤 일을 수행해야 하는지 알려준다.
   useEffect(() => {
     // todoList가 변했을때만 실행
     console.log(todoList);

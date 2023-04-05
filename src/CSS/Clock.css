@@ -1,0 +1,26 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.current-time {
+  /* font-size: 1.5em;
+  color: #9b6394;
+  font-weight: 800;
+  font-family: "Jeju Gothic", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  /*   font-family: 'Dosis', sans-serif; */
+  color: rgb(252, 150, 65);
+  //position: fixed;
+  //z-index: 1;
+  height: 1.4em;
+  width: 3.8em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 2vw;
+  -webkit-text-stroke: 1px rgb(218, 104, 207);
+  text-shadow: 2px 2px 5px rgba(210, 104, 207, 0.4),
+    2px 2px 15px rgba(210, 45, 26, 0.4), 2px 2px 20px rgba(218, 88, 207, 0.4),
+    2px 2px 30px rgba(210, 15, 06, 0.4);
+}
