@@ -1,0 +1,16 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading__title {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: hsla(166, 100%, 50%, 0.7);
+  font-size: 1.5rem;
+}
+.heading__img {
+  width: 24%;
+}
